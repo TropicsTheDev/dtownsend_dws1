@@ -15,7 +15,7 @@ body, header, nav, section{
 }
 
 header{
-    background-image: url("/images/banner.jpg");
+    background-image: url("../images/banner.jpg");
 }
 nav{
     background-color: #111111;
@@ -75,6 +75,7 @@ nav a:hover{
 }
 
 #featured li{
+    display: block;
     width: calc(25% -6rem/4);
     float: left;
 }
@@ -87,7 +88,7 @@ nav a:hover{
  }
 
  #benefits{
-     background-image: url("/images/gears.jpg");
+     background-image: url("../images/gears.jpg");
  }
 
  #benefits li{
