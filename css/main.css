@@ -2,11 +2,15 @@
 ================================================== 
 ================================================== */
 
+/*NOTE: Why do the imported fonts not work*/
+@import url("https://use.typekit.net/zhs6aor.css");
+
+
 html {
 	font-size: 62.5%;
 }
 
-body, header, nav, section{
+body, header, nav, section, footer{
     
     max-width: 1200px;
     background-color: white;
@@ -14,8 +18,46 @@ body, header, nav, section{
     
 }
 
-header{
+#mainHead{
     background-image: url("../images/banner.jpg");
+}
+
+footer{
+    display: block;
+    
+    background-color: #111111;
+    font-size: 1.6rem/1.25;
+    color: #888888;
+}
+
+footer section{
+    background-color: #111111;
+    display:block;
+    width: calc(100%/4 - 6rem/4);
+    float: left;
+}
+
+footer ul:not(:nth-of-type(4)){
+    margin-right: 1rem;
+}
+/*NOTE: Ask why clearfix doesn't fix footer*/
+body > footer::after{
+	content: "";
+	display: block;
+    clear: both;
+}
+
+footer h4{
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+
+
+/*NOTE: Ask why clearfix doesn't fix footer*/
+body > footer::after{
+	content: "";
+	display: block;
+    clear: both;
 }
 nav{
     background-color: #111111;
@@ -63,6 +105,7 @@ nav a:hover{
 
 #Categories ul{
     width: 100%;
+    text-align: center;
 }
 #Categories li {
     display:block;
@@ -70,27 +113,37 @@ nav a:hover{
     float: left;
     
 }
-#Categories li:not(:nth-of-type(3)) {
-	margin-right: 2rem;
-}
 
-#featured li{
+
+#featured li {
     display: block;
-    width: calc(25% -6rem/4);
-    float: left;
+   width: calc(25% - 6rem/4);
+   float: left;
+    
 }
 
+/*ask why changing from 2rem to 2rem makes evrything fit*/
 #featured li:not(:nth-of-type(4)) {
-	margin-right: 2rem;
+	margin-right: 1rem;
 }
+/*NOTE: Ask why items dont center event with text align center.*/
+
+
  #featured img{
-     width: 25rem;
+     width: 75%;
  }
 
  #benefits{
      background-image: url("../images/gears.jpg");
+     font-size: 1.6rem/1.25;
+     color: #888888
  }
 
+ #benefits h3{
+     font-size: 2rem;
+     
+     color: #dddddd;
+ }
  #benefits li{
     display:block;
     width: calc(100%/3 - 4rem/3);
@@ -99,6 +152,20 @@ nav a:hover{
 
  #benefits li:not(:nth-of-type(3)){
      margin-right: 2rem;
+ }
+
+ /*Start 2nd page css*/
+ .item{
+    display: block;
+    width: calc(25% -6rem/4);
+    float: left;
+}
+
+.item li:not(:nth-of-type(4)) {
+	margin-right: 1rem;
+}
+ .item img{
+     width: 25rem;
  }
  body > section::after{
 	content: "";
