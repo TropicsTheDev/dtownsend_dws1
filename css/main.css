@@ -15,7 +15,7 @@ html {
 }
 
 body{
-    font: 1.6rem/1.25 Program OT, Arial, sans-serif;
+    font: 1.6rem/1.25 "Program OT book", Arial, sans-serif;
 }
 /*header section*/
 header{
@@ -129,17 +129,49 @@ section{
 }
 /*featured products home page*/
 #featured{
+color: #666666;
+margin: 3rem auto;
 
 }
  #featured h2{
-
+    color: #666666;
  }
+#featured h2 span{
+    font-weight: bold;
+    color: #111111;
+    display: block; 
+}
+#featured h3{
+    font-weight: bold;
+    color: #444444;
+}
 #featured li {
-    padding: 5rem 0;
+    filter: grayscale(100%);
+border: 2px transparent;
+text-align: left;
+position: relative;
+padding: 1rem;
    display: block;
    width: calc(25% - 3rem/4);
    float: left;
-    
+   
+}
+
+#featured li:hover{
+    border: 2px solid #888888;
+    filter: grayscale(0%);
+}
+#featured li button{
+display: none;
+background-color: rgba(0, 0, 0, .7);
+}
+
+#featured li:hover button{
+position: absolute;
+top: calc(100%);
+
+display: block;
+width: calc(100%);
 }
 
 /*ask why changing from 2rem to 2rem makes evrything fit*/
@@ -165,10 +197,15 @@ section{
     width: 100%;
     
  }
-
+.mainPrice{
+    font-size: 20px;
+    color: #444444;
+    font-weight: bold;
+}
  /*membership benefits*/
 
  #benefits{
+    text-align: center;
      background: no-repeat url("../images/gears.jpg");
      background-size: cover;
      font-size: 1.6rem/1.25;
@@ -178,7 +215,7 @@ section{
  #benefits h3{
     font-weight: bold;
     font-size: 2rem;
-    text-align: center;
+    
     color: #dddddd;
 }
 
@@ -191,6 +228,12 @@ section{
 
  #benefits li:not(:nth-of-type(3)){
      margin-right: 2rem;
+ }
+
+ #benefits img{
+     display: inline-block;
+     padding:3rem;
+     bord
  }
 
  /*Start 2nd page css*/
@@ -214,7 +257,7 @@ section{
 
 /*footer section*/
 footer{
-    
+    padding: 5rem;
     background-color: #111111;
     font-size: 1.6rem/1.25;
     color: #888888;
