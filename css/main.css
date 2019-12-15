@@ -168,10 +168,10 @@ background-color: rgba(0, 0, 0, .7);
 
 #featured li:hover button{
 position: absolute;
-top: calc(100%);
+
 
 display: block;
-width: calc(100%);
+
 }
 
 /*ask why changing from 2rem to 2rem makes evrything fit*/
@@ -225,6 +225,7 @@ width: calc(100%);
     display:block;
     width: calc(100%/3 - 4rem/3);
     float: left;
+   
  }
 
  #benefits li:not(:nth-of-type(3)){
@@ -240,17 +241,39 @@ width: calc(100%);
  }
 
  /*Start 2nd page css*/
- .item{
-    display: block;
-    width: calc(25% -6rem/4);
+ #featuredProducts{
+     background-color: #dddddd;
+     padding: 5rem;
+ }
+ #featuredProducts li {
+    background-color: #ffffff;
+    border: 2px transparent;
+    text-align: left;
+    position: relative;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: calc(25% - 3rem/4);
     float: left;
+   
 }
 
-.item li:not(:nth-of-type(4)) {
+#featuredProducts li:hover{
+    border: 2px solid #888888;
+    
+}
+
+#featuredProducts li:not(:nth-of-type(4n)) {
 	margin-right: 1rem;
 }
- .item img{
-     width: 25rem;
+
+#featuredProducts li:nth-of-type(4n+1){
+    clear: left;
+}
+/*NOTE: Ask why items dont center event with text align center.*/
+
+
+ #featuredProducts img{
+     width: 100%
  }
  body section::after{
 	content: " ";
