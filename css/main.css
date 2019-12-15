@@ -205,8 +205,9 @@ width: calc(100%);
  /*membership benefits*/
 
  #benefits{
+     padding: 2rem;
     text-align: center;
-     background: no-repeat url("../images/gears.jpg");
+     background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../images/gears.jpg");
      background-size: cover;
      font-size: 1.6rem/1.25;
      color: #888888
@@ -220,7 +221,7 @@ width: calc(100%);
 }
 
  #benefits li{
-    
+    padding: 2rem;
     display:block;
     width: calc(100%/3 - 4rem/3);
     float: left;
@@ -233,7 +234,9 @@ width: calc(100%);
  #benefits img{
      display: inline-block;
      padding:3rem;
-     bord
+     border: 3px solid #dddddd;
+     filter: grayscale(1);
+     
  }
 
  /*Start 2nd page css*/
