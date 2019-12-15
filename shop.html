@@ -24,20 +24,23 @@
         <h1><img src="images/cycleWorld.png"></h1>
     </header>
     <!--Second header for main categories-->
-    <section>
-        <!--each is article due to how specific each one is its own unique category. Could have been a nav though-->
-        <article>
-            <h2><a>American Seats</a></h2>
-        </article>
-        <article>
-            <h2><a>Military Seats</a></h2>
-        </article>
-        <article>
-            <h2><a>Historical Seats</a></h2>
-        </article>
-        <article>
-            <h2><a>State Seats</a></h2>
-        </article>
+    <section id="shopTop">
+
+        <!--changed to li-->
+        <ul>
+            <li>
+                <h3><a>American <span>Seats</span></a></h3>
+            </li>
+            <li>
+                <h3><a>Military <span>Seats</span></h3> 
+            </li>
+            <li>
+                <h3><a>Historical <span>Seats</span></a></h3>
+            </li>
+            <li>
+                <h3><a>State <span>Seats</span></a></h3>
+            </li>
+        </ul>
         <!--Buttons cosme after due to their order of importance-->
         <button>Prev</button>
         <button>Next</button>
@@ -45,149 +48,181 @@
     <section id="featuredProducts">
         <!--unordered list because while each item is indivual they are still a collection of items-->
         <div class="wrapper">
-        <ul>
-            <li >
-                <meter value="3" min="0" max="5" low="2" high="4"></meter>
-               
-                <img src="images/seat.jpg">
-                <p>$2.89</p>
-                <h3>Name of Item</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non molestie
-                    eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare metus
-                    eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec, tempor
-                    sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae posuere.
-                    Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
+            <ul>
+                <li>
+                    <meter value="3" min="0" max="5" low="2" high="4"></meter>
 
-                <!--nested list to display the buttons-->
-                <ul>
-                    <li><button>Add to Cart</button></li>
-                    <li><button>Add to Wishlist</button></li>
-                    <li><button>Compare</button></li>
-                </ul>
-            </li>
-            <li >
-                <meter value="3" min="0" max="5" low="2" high="4"></meter>
+                    <img src="images/seat.jpg">
+                    <p>$2.89</p>
+                    <h3>Name of Item</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non
+                        molestie
+                        eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare
+                        metus
+                        eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec,
+                        tempor
+                        sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae
+                        posuere.
+                        Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
 
-                <img src="images/seat.jpg">
-                <p>$2.89</p>
-                <h3>Name of Item</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non molestie
-                    eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare metus
-                    eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec, tempor
-                    sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae posuere.
-                    Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
-                <ul>
-                    <li><button>Add to Cart</button></li>
-                    <li><button>Add to Wishlist</button></li>
-                    <li><button>Compare</button></li>
-                </ul>
-            </li>
-            <li>
-                <meter value="3" min="0" max="5" low="2" high="4"></meter>
+                    <!--nested list to display the buttons-->
+                    <ul id="test">
+                        <li><button>Add to Cart</button></li>
+                        <li><button>Add to Wishlist</button></li>
+                        <li><button>Compare</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <meter value="3" min="0" max="5" low="2" high="4"></meter>
 
-                <img src="images/seat.jpg">
-                <p>$2.89</p>
-                <h3>Name of Item</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non molestie
-                    eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare metus
-                    eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec, tempor
-                    sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae posuere.
-                    Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
-                <ul>
-                    <li><button>Add to Cart</button></li>
-                    <li><button>Add to Wishlist</button></li>
-                    <li><button>Compare</button></li>
-                </ul>
-            </li>
-            <li>
-                <meter value="3" min="0" max="5" low="2" high="4"></meter>
+                    <img src="images/seat.jpg">
+                    <p>$2.89</p>
+                    <h3>Name of Item</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non
+                        molestie
+                        eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare
+                        metus
+                        eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec,
+                        tempor
+                        sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae
+                        posuere.
+                        Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
+                    <ul>
+                        <li><button>Add to Cart</button></li>
+                        <li><button>Add to Wishlist</button></li>
+                        <li><button>Compare</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <meter value="3" min="0" max="5" low="2" high="4"></meter>
 
-                <img src="images/seat.jpg">
-                <p>$2.89</p>
-                <h3>Name of Item</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non molestie
-                    eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare metus
-                    eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec, tempor
-                    sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae posuere.
-                    Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
+                    <img src="images/seat.jpg">
+                    <p>$2.89</p>
+                    <h3>Name of Item</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non
+                        molestie
+                        eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare
+                        metus
+                        eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec,
+                        tempor
+                        sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae
+                        posuere.
+                        Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
+                    <ul>
+                        <li><button>Add to Cart</button></li>
+                        <li><button>Add to Wishlist</button></li>
+                        <li><button>Compare</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <meter value="3" min="0" max="5" low="2" high="4"></meter>
 
-                <ul>
-                    <li><button>Add to Cart</button></li>
-                    <li><button>Add to Wishlist</button></li>
-                    <li><button>Compare</button></li>
-                </ul>
-            </li>
-            <li>
-                <meter value="3" min="0" max="5" low="2" high="4"></meter>
+                    <img src="images/seat.jpg">
+                    <p>$2.89</p>
+                    <h3>Name of Item</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non
+                        molestie
+                        eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare
+                        metus
+                        eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec,
+                        tempor
+                        sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae
+                        posuere.
+                        Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
 
-                <img src="images/seat.jpg">
-                <p>$2.89</p>
-                <h3>Name of Item</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non molestie
-                    eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare metus
-                    eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec, tempor
-                    sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae posuere.
-                    Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
-                <ul>
-                    <li><button>Add to Cart</button></li>
-                    <li><button>Add to Wishlist</button></li>
-                    <li><button>Compare</button></li>
-                </ul>
-            </li>
-            <li>
-                <meter value="3" min="0" max="5" low="2" high="4"></meter>
-                
-                <img src="images/seat.jpg">
-                <p>$2.89</p>
-                <h3>Name of Item</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non molestie
-                    eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare metus
-                    eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec, tempor
-                    sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae posuere.
-                    Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
-                <ul>
-                    <li><button>Add to Cart</button></li>
-                    <li><button>Add to Wishlist</button></li>
-                    <li><button>Compare</button></li>
-                </ul>
-            </li>
-            <li>
-                <meter value="3" min="0" max="5" low="2" high="4"></meter>
-                
-                <img src="images/seat.jpg">
-                <p>$2.89</p>
-                <h3>Name of Item</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non molestie
-                    eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare metus
-                    eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec, tempor
-                    sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae posuere.
-                    Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
-                <ul>
-                    <li><button>Add to Cart</button></li>
-                    <li><button>Add to Wishlist</button></li>
-                    <li><button>Compare</button></li>
-                </ul>
-            </li>
-            <li>
-                <meter value="3" min="0" max="5" low="2" high="4"></meter>
-                
-                <img src="images/seat.jpg">
-                <p>$2.89</p>
-                <h3>Name of Item</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non molestie
-                    eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare metus
-                    eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec, tempor
-                    sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae posuere.
-                    Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
-                <ul>
-                    <li><button>Add to Cart</button></li>
-                    <li><button>Add to Wishlist</button></li>
-                    <li><button>Compare</button></li>
-                </ul>
-            </li>
+                    <ul>
+                        <li><button>Add to Cart</button></li>
+                        <li><button>Add to Wishlist</button></li>
+                        <li><button>Compare</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <meter value="3" min="0" max="5" low="2" high="4"></meter>
 
-        </ul>
-    </div>
+                    <img src="images/seat.jpg">
+                    <p>$2.89</p>
+                    <h3>Name of Item</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non
+                        molestie
+                        eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare
+                        metus
+                        eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec,
+                        tempor
+                        sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae
+                        posuere.
+                        Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
+                    <ul>
+                        <li><button>Add to Cart</button></li>
+                        <li><button>Add to Wishlist</button></li>
+                        <li><button>Compare</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <meter value="3" min="0" max="5" low="2" high="4"></meter>
+
+                    <img src="images/seat.jpg">
+                    <p>$2.89</p>
+                    <h3>Name of Item</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non
+                        molestie
+                        eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare
+                        metus
+                        eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec,
+                        tempor
+                        sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae
+                        posuere.
+                        Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
+                    <ul>
+                        <li><button>Add to Cart</button></li>
+                        <li><button>Add to Wishlist</button></li>
+                        <li><button>Compare</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <meter value="3" min="0" max="5" low="2" high="4"></meter>
+
+                    <img src="images/seat.jpg">
+                    <p>$2.89</p>
+                    <h3>Name of Item</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non
+                        molestie
+                        eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare
+                        metus
+                        eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec,
+                        tempor
+                        sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae
+                        posuere.
+                        Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
+                    <ul>
+                        <li><button>Add to Cart</button></li>
+                        <li><button>Add to Wishlist</button></li>
+                        <li><button>Compare</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <meter value="3" min="0" max="5" low="2" high="4"></meter>
+
+                    <img src="images/seat.jpg">
+                    <p>$2.89</p>
+                    <h3>Name of Item</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar commodo enim, non
+                        molestie
+                        eros. Quisque rutrum facilisis felis non finibus. Vestibulum a justo libero. Praesent ornare
+                        metus
+                        eget sapien lobortis, eu semper nisl sodales. Integer neque nibh, pulvinar non vehicula nec,
+                        tempor
+                        sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis consequat risus vitae
+                        posuere.
+                        Cras ut diam interdum, rutrum ipsum at, pharetra ligula.</p>
+                    <ul>
+                        <li><button>Add to Cart</button></li>
+                        <li><button>Add to Wishlist</button></li>
+                        <li><button>Compare</button></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
     </section>
     <footer>
         <section id="misc">

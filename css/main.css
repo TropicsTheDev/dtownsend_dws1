@@ -16,6 +16,7 @@ html {
 
 body{
     font: 1.6rem/1.25 "Program OT book", Arial, sans-serif;
+    
 }
 /*header section*/
 header{
@@ -241,15 +242,37 @@ display: block;
  }
 
  /*Start 2nd page css*/
+ 
+ #shopTop h3{
+     background-color: #111111;
+    color: #dddddd;
+    font-weight: bold;
+ }
+ #shopTop span{
+     color: #888888;
+     font-weight: normal;
+     display: block;
+ }
+ #shopTop li{
+    
+    
+    text-align: center;
+    position: relative;
+    
+    width: calc(25% - 3rem/4);
+    float: left;
+ }
+ #shopTop li:not(:nth-of-type(3)){
+     margin-right: 2rem;
+ }
  #featuredProducts{
      background-color: #dddddd;
      padding: 5rem;
  }
  #featuredProducts li {
     background-color: #ffffff;
-    border: 2px transparent;
+    border: 2px rgba(0, 0, 0, 0);
     text-align: left;
-    position: relative;
     padding: 2rem;
     margin-bottom: 2rem;
     width: calc(25% - 3rem/4);
@@ -269,7 +292,32 @@ display: block;
 #featuredProducts li:nth-of-type(4n+1){
     clear: left;
 }
+
+#featuredProducts li li{
+    font-size: 0;
+    background-color: #c0392b;
+    
+    
+    padding: 2rem;
+    margin-top: 1rem;
+    width: calc(100%/3 - 2rem/3);
+    float: left;
+}
+
+#featuredProducts li li:first-of-type{
+    font-size: 0;
+    background-color: #111111;
+    
+    
+    padding: 2rem;
+    margin-top: 1rem;
+    width: calc(100%/3 - .5rem/3);
+    float: left;
+}
 /*NOTE: Ask why items dont center event with text align center.*/
+#featuredProducts li li:not(:nth-of-type(3n)){
+    margin-right: .25rem;
+}
 
 
  #featuredProducts img{
