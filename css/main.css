@@ -245,6 +245,7 @@ display: block;
  
  #shopTop h3{
      background-color: #111111;
+     padding: 4rem;
     color: #dddddd;
     font-weight: bold;
  }
@@ -258,11 +259,11 @@ display: block;
     
     text-align: center;
     position: relative;
-    
-    width: calc(25% - 3rem/4);
+    padding:2rem;
+    width: calc(25% - 6rem/4);
     float: left;
  }
- #shopTop li:not(:nth-of-type(3)){
+ #shopTop li:not(:nth-of-type(4)){
      margin-right: 2rem;
  }
  #featuredProducts{
