@@ -346,6 +346,18 @@ padding: 5rem;
 
 }
 
+#contactBox h2{
+    font-size: 3.6rem;
+    color:#111111;
+    font-weight: bold;
+}
+ #contactBox h3{
+    font-size: 2rem;
+    color: #444444;
+    font-weight: bold;
+}
+
+
 #contactBox article{
  width: calc(50% - 2rem);
  float: left;
@@ -354,7 +366,19 @@ padding: 5rem;
 #contactBox article:first-of-type{
     margin-right: 4rem;
 }
-
+#contactInfo li{
+    background-color: #999999;
+    text-align: center;
+    width: calc(100%/3 - 4rem/3);
+    float: left;
+    
+}
+#contactInfo li:not(:nth-of-type(3)){
+    margin-right: 2rem;
+}
+#contactInfo p, li{
+margin: 2rem auto;
+}
 #contactForm{
     border: 2px solid #666666;
     padding: 3rem;
