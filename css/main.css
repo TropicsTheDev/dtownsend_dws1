@@ -16,7 +16,13 @@ html {
 
 body{
     font: 1.6rem/1.25 Program OT book, Arial, sans-serif;
+    color: #666666;
     
+}
+h2{
+    font-size: 3.6rem;
+    color: #111111;
+    font-weight: bold;
 }
 /*header section*/
 header{
@@ -101,6 +107,7 @@ section{
 
 #categories p{
     background-color: #c0392b;
+    font-weight: bold;
     width: calc(100%/3);
     margin: 0 auto;
     padding: 1rem;
@@ -402,6 +409,67 @@ margin: 2rem auto;
     padding: 1rem;
     display: block;
 }
+/*events page section*/
+#mainEvent{
+padding: 10rem;
+}
+#mainEvent section{
+    width: calc(50% - 10rem);
+    float: left;
+}
+#mainEvent section:first-of-type{
+    margin-right: 20rem;
+}
+
+#mainEvent h2 {
+    font-size: 3.6rem;
+    color: #111111;
+    font-weight: bold;
+}
+
+#mainDescription h2, p{
+    margin-bottom: 2rem;
+}
+
+#mainDescription button{
+    display: block;
+    padding: 2rem;
+    background-color: #c0392b;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+#eventMeta{
+    
+    background-color: #e9e9e9;
+    padding: 3rem;
+}
+
+#eventMeta span{
+    display: block;
+    color: #444444;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#eventMeta div {
+    width: calc(50% - 1rem);
+    padding: 3rem;
+    
+    float: left;
+}
+
+#eventMeta div:not(:nth-of-type(2n)){
+    margin-right: 2rem;
+}
+
+#eventMeta div:nth-of-type(2n+1){
+    clear: left;
+}
+body > main::after{
+	content: " ";
+	display: block;
+    clear: both;
+}
 /*footer section*/
 footer{
     padding: 5rem;
@@ -426,6 +494,15 @@ body > footer::after{
 	display: block;
     clear: both;
 }
+#socials{
+    text-align: right;
+}
+#socials li, h4{
+    display: inline-block;
+    padding: .1rem;
+    
+}
+
 
 footer h4{
     font-size: 1.6rem;

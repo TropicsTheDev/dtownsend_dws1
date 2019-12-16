@@ -2,7 +2,11 @@
 <html lang="en">
 
 <head>
-
+    <meta charset="utf-8">
+    <meta name="description" content="Awesome">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -21,31 +25,45 @@
     </header>
     <main id="mainEvent">
         <article>
-            <h2>About Event</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat lectus ut augue hendrerit feugiat.
-                Nunc faucibus euismod mi, vel interdum leo elementum eget. Proin quis felis vel purus tempor tincidunt.
-                Suspendisse magna nibh, ornare ut odio quis, tempor porta metus. Donec ultrices feugiat purus, id cursus
-                quam ullamcorper ac. Nullam quis congue orci. Nulla facilisi. Pellentesque pharetra mauris ut tortor
-                dapibus bibendum. Quisque vitae condimentum ipsum. Nam faucibus consequat sem eu rutrum. Nulla malesuada
-                vitae velit in tincidunt. Proin iaculis, tortor eget varius malesuada, ligula dolor bibendum sapien, nec
-                porta enim ex non erat.
-            </p>
-            <button>Book Now</button>
-            <img src="images/wrench.png">
-            <!--definition list to incorperate key value pairs into the lited information-->
-            <dl>
-                <dt>New Work, NY</dt>
-                <dd>United States</dd>
-
-                <dt>Entertainment</dt>
-                <dd>Great Activities</dd>
-
-                <dt>1300+ Seats</dt>
-                <dd>Single & VIP</dd>
-
-                <dt>24-26 Dec</dt>
-                <dd>3 Awesome Days</dd>
-            </dl>
+            <section id="mainDescription">
+                <h2>About Event</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat lectus ut augue hendrerit
+                    feugiat.
+                    Nunc faucibus euismod mi, vel interdum leo elementum eget. Proin quis felis vel purus tempor
+                    tincidunt.
+                    Suspendisse magna nibh, ornare ut odio quis, tempor porta metus. Donec ultrices feugiat purus, id
+                    cursus</p>
+                    <p>
+                    quam ullamcorper ac. Nullam quis congue orci. Nulla facilisi. Pellentesque pharetra mauris ut tortor
+                    dapibus bibendum. Quisque vitae condimentum ipsum. Nam faucibus consequat sem eu rutrum. Nulla
+                    malesuada
+                    vitae velit in tincidunt. Proin iaculis, tortor eget varius malesuada, ligula dolor bibendum sapien,
+                    nec
+                    porta enim ex non erat.
+                </p>
+                <button>Book Now</button>
+            </section>
+            <section id="eventMeta">
+                <!--definition list to incorperate key value pairs into the lited information-->
+                <dl>
+                    <div>
+                        <dt>Location</dt>
+                        <dd><span>New York, NY</span>United States</dd>
+                    </div>
+                    <div>
+                        <dt>Activities</dt>
+                        <dd><span>Entertainment</span> Great Activities</dd>
+                    </div>
+                    <div>
+                        <dt>Seating</dt>
+                        <dd><span>1300+ Seats</span> Single & VIP</dd>
+                    </div>
+                    <div>
+                        <dt>Date</dt>
+                        <dd><span>24-26 Dec</span> 2 Awesome Days</dd>
+                    </div>
+                </dl>
+            </section>
         </article>
     </main>
 
@@ -67,11 +85,16 @@
                     feugiat. Nunc faucibus euismod mi, vel interdum leo elementum eget. Proin quis felis vel purus
                     tempor tincidunt. Suspendisse magna nibh, ornare ut odio quis, tempor porta metus.
                 </p>
-                <ul>
-                    <li>New York</li>
-                    <li>24, 2019</li>
-                    <li>NYC Center</li>
-                </ul>
+                <dl>
+                    <dt>Location</dt>
+                    <dd>New York, NY</dd>
+
+                    <dt>Date</dt>
+                    <dd>Dec 24 2019</dd>
+
+                    <dt>Venue</dt>
+                    <dd>NYC Center</dd>
+                </dl>
             </li>
             <li>
                 <img src="#">
@@ -81,11 +104,16 @@
                     feugiat. Nunc faucibus euismod mi, vel interdum leo elementum eget. Proin quis felis vel purus
                     tempor tincidunt. Suspendisse magna nibh, ornare ut odio quis, tempor porta metus.
                 </p>
-                <ul>
-                    <li>New York</li>
-                    <li>24, 2019</li>
-                    <li>NYC Center</li>
-                </ul>
+                <dl>
+                    <dt>Location</dt>
+                    <dd>New York, NY</dd>
+
+                    <dt>Date</dt>
+                    <dd>Dec 24 2019</dd>
+
+                    <dt>Venue</dt>
+                    <dd>NYC Center</dd>
+                </dl>
             </li>
             <li>
                 <img src="#">
@@ -102,6 +130,7 @@
                 </ul>
             </li>
         </ul>
+        <!--
         <ul id="#dec25">
             <li>
                 <img src="#">
@@ -183,22 +212,20 @@
                     feugiat. Nunc faucibus euismod mi, vel interdum leo elementum eget. Proin quis felis vel purus
                     tempor tincidunt. Suspendisse magna nibh, ornare ut odio quis, tempor porta metus.
                 </p>
-                <ul>
-                    <li>New York</li>
-                    <li>24, 2019</li>
-                    <li>NYC Center</li>
-                </ul>
+                dl
             </li>
         </ul>
-
+-->
     </section>
     <footer>
+        <section id="misc">
         <ul>
             <li><a>Gift Cards</a></li>
             <li><a>Find A Store</a></li>
             <li><a>Sign Up For Email</a></li>
             <li><a>Become A Member</a></li>
         </ul>
+    </section>
         <section id="getHelp">
             <h4>Get Help</h4>
             <ul>
@@ -222,6 +249,7 @@
             </ul>
         </section>
         <section id="socials">
+            <h4>Socials</h4>
             <ul>
                 <li><a href="facebook.com">Facebook</a></li>
                 <li><a href="twitter.com">Twitter</a></li>
