@@ -15,7 +15,7 @@ html {
 }
 
 body{
-    font: 1.6rem/1.25 "Program OT book", Arial, sans-serif;
+    font: 1.6rem/1.25 Program OT book, Arial, sans-serif;
     
 }
 /*header section*/
@@ -242,10 +242,13 @@ display: block;
  }
 
  /*Start 2nd page css*/
- 
+ #shopTop{
+    background-color: #111111;
+ }
  #shopTop h3{
-     background-color: #111111;
-     padding: 4rem;
+     /*Blue is a placeholder color*/
+    background-color: blue;
+    padding: 4rem;
     color: #dddddd;
     font-weight: bold;
  }
@@ -324,12 +327,57 @@ display: block;
  #featuredProducts img{
      width: 100%
  }
+
  body section::after{
 	content: " ";
 	display: block;
 	clear: both;
 }
+body section::after{
+	content: " ";
+	display: block;
+	clear: both;
+}
 
+/*Contact Page section*/
+#contactBox{
+color: #666666;
+padding: 5rem;
+
+}
+
+#contactBox article{
+ width: calc(50% - 2rem);
+ float: left;
+}
+
+#contactBox article:first-of-type{
+    margin-right: 4rem;
+}
+
+#contactForm{
+    border: 2px solid #666666;
+    padding: 3rem;
+}
+
+#contactForm label{
+    display: none;
+}
+#contactForm input, textarea{
+    border: 2px solid #666666;
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
+    
+}
+
+#contactForm button{
+    background-color: #c0392b;
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+}
 /*footer section*/
 footer{
     padding: 5rem;

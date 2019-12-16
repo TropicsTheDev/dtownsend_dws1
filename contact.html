@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="search results description">
-    <title>Contact</title>
+    <meta name="description" content="Awesome">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -21,51 +23,62 @@
         </nav>
         <h1><img src="images/cycleWorld.png"></h1>
     </header>
-    <section id="contactInfo">
-        <p>Lorem ipsum dolor sit amet</p>
-        <h2>About Cycle World</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            <br>
-            Nulla pulvinar commodo enim, non molestie eros. Quisque rutrum facilisis felis non finibus. Vestibulum a
-            justo libero. Praesent ornare metus eget sapien lobortis, eu semper nisl sodales. Integer neque nibh,
-            pulvinar non vehicula nec, tempor sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis
-            consequat risus vitae posuere. Cras ut diam interdum, rutrum ipsum at, pharetra ligula.
-        </p>
-        <!--list of basic features-->
-        <ul>
-            <li>
-                <img src="#">
-                <p>30 Minuites of Maintenance</p>
-            </li>
-            <li>
-                <img src="#">
-                <p>60 Minuites of Maintenance</p>
-            </li>
-            <li>
-                <img src="#">
-                <p>90 Minuites of Maintenance</p>
-            </li>
-        </ul>
+    <section id="contactBox">
+        <article id="contactInfo">
+            <p>Lorem ipsum dolor sit amet</p>
+            <h2>About Cycle World</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <br>
+                Nulla pulvinar commodo enim, non molestie eros. Quisque rutrum facilisis felis non finibus. Vestibulum a
+                justo libero. Praesent ornare metus eget sapien lobortis, eu semper nisl sodales. Integer neque nibh,
+                pulvinar non vehicula nec, tempor sed dui. Donec vehicula neque eget dapibus imperdiet. Morbi mattis
+                consequat risus vitae posuere. Cras ut diam interdum, rutrum ipsum at, pharetra ligula.
+            </p>
+            <!--list of basic features-->
+            <ul>
+                <li>
+                    <img src="#">
+                    <p>30 Minuites of Maintenance</p>
+                </li>
+                <li>
+                    <img src="#">
+                    <p>60 Minuites of Maintenance</p>
+                </li>
+                <li>
+                    <img src="#">
+                    <p>90 Minuites of Maintenance</p>
+                </li>
+            </ul>
+        </article>
+        <article id="formSection">
+            <form id="contactForm">
+                <p>Lorem ipsum dolor sit amet</p>
+                <h2>Send Us A Message</h2>
+
+                <!--add labels to all inputs. Wrap label in <p> -->
+                <input name="name" type="text" placeholder="Name">
+                <label for="name">Name</label>
+                <input name="email" type="email" placeholder="Email">
+                <label for="email">Email</label>
+                <input name="phone" type="tel" placeholder="Phone">
+                <label for="phone">Phone Number</label>
+                <input name="date" type="datetime" placeholder="Date">
+                <label for="date">Date</label>
+                <textarea name="message" placeholder="Message"></textarea>
+                <label for="message">Message</label>
+                <button name="send" type="submit">Send</button>
+            </form>
+        </article>
     </section>
-    <form id="contactForm">
-        <p>Lorem ipsum dolor sit amet</p>
-        <h2>Send Us A Message</h2>
-        
-        <!--add labels to all inputs. Wrap label in <p> -->
-        <input name="name" type="text" placeholder="Name">
-        <input name="email" type="email" placeholder="Email">
-        <input name="phone" type="tel" placeholder="Phone">
-        <input name="date" type="datetime" placeholder="Date">
-        <textarea name="message" placeholder="Message"></textarea>
-        <button name="send" type="submit">Send</button>
-    </form>
     <footer>
+        <section id="misc">
         <ul>
             <li><a>Gift Cards</a></li>
             <li><a>Find A Store</a></li>
             <li><a>Sign Up For Email</a></li>
             <li><a>Become A Member</a></li>
         </ul>
+    </section>
         <section id="getHelp">
             <h4>Get Help</h4>
             <ul>
@@ -90,11 +103,11 @@
         </section>
         <section id="socials">
             <ul>
-                    <li><a href="facebook.com">Facebook</a></li>
-                    <li><a href="twitter.com">Twitter</a></li>
-                    <li><a href="youtube.com">YouTube</a></li>
-                    <li><a href="google.com">Google Plus</a></li>
-                    <li><a href="instagram.com">Instagram</a></li>
+                <li><a href="facebook.com">Facebook</a></li>
+                <li><a href="twitter.com">Twitter</a></li>
+                <li><a href="youtube.com">YouTube</a></li>
+                <li><a href="google.com">Google Plus</a></li>
+                <li><a href="instagram.com">Instagram</a></li>
             </ul>
         </section>
     </footer>
