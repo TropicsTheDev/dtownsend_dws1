@@ -18,11 +18,28 @@ body {
   font: 1.6rem/1.25 Program OT book, Arial, sans-serif;
   color: #666666;
 }
+h1 {
+  padding: 10rem 0;
+}
 h2 {
+  text-transform: uppercase;
   font-size: 3.6rem;
   color: #111111;
   font-weight: bold;
 }
+h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #dddddd;
+}
+
+h4{
+    font-size:1.6rem;
+    color: #FFFFFF;
+    text-transform:uppercase;
+
+}
+
 /*header section*/
 header {
   background: no-repeat url("../images/banner.jpg");
@@ -32,6 +49,7 @@ header {
 nav {
   background-color: #111111;
   opacity: 85%;
+  text-transform: uppercase;
   text-align: center;
   font-size: 2rem;
 }
@@ -46,7 +64,6 @@ nav li {
 nav li:hover {
   color: #dddddd;
   background-color: #111111;
-
   opacity: 100%;
 }
 
@@ -60,18 +77,14 @@ nav a:hover {
   color: #dddddd;
 }
 
-h1 {
-  padding: 10rem 0;
-}
+button {
+    display: block;
+    padding: 2rem;
+    background-color: #c0392b;
+    color: #ffffff;
+    font-weight: bold;
+  }
 
-h3 {
-  font-size: 2rem;
-  color: #dddddd;
-}
-/*section section*/
-section {
-  margin: 0 auto 0 auto;
-}
 
 #categories {
   text-align: left;
@@ -82,6 +95,7 @@ section {
 }
 #categories h2 {
   display: none;
+  color: #dddddd;
 }
 #categories h3 {
   background: rgba(0, 0, 0, 0.5);
@@ -210,7 +224,9 @@ meter {
   font-size: 1.6rem/1.25;
   color: #888888;
 }
-
+#benefits h2{
+    color: #ffffff;
+}
 #benefits h3 {
   font-weight: bold;
   font-size: 2rem;
@@ -382,12 +398,7 @@ textarea {
   width: 100%;
 }
 
-#contactForm button {
-  background-color: #c0392b;
-  margin: 1rem;
-  padding: 1rem;
-  display: block;
-}
+
 /*events page section*/
 #mainEvent {
   padding: 5rem 0;
@@ -411,13 +422,7 @@ p {
   margin-bottom: 2rem;
 }
 
-#mainDescription button {
-  display: block;
-  padding: 2rem;
-  background-color: #c0392b;
-  color: #ffffff;
-  font-weight: bold;
-}
+
 #eventMeta {
   background-color: #e6e6e6;
   padding: 3rem;
@@ -463,13 +468,7 @@ p {
 }
 
 #eventSchedule button {
-  display: block;
-  padding: 2rem;
   float: right;
-
-  background-color: #c0392b;
-  color: #ffffff;
-  font-weight: bold;
 }
 #widget {
   margin-top: 3rem;
@@ -486,14 +485,14 @@ p {
 }
 
 #widget nav li:hover {
-    background-color: white;
-    /* width: calc(100% / 3 - 1.5rem);
+  background-color: white;
+  /* width: calc(100% / 3 - 1.5rem);
     padding: 0;
     height: 100%;
     margin-right: 1.5rem;
     float: left; */
-    /* width: 90%; */
-  }
+  /* width: 90%; */
+}
 
 #widget ul {
   width: calc(200% / 3 - 1.5rem);
@@ -554,7 +553,3 @@ h4 {
   padding: 0.1rem;
 }
 
-footer h4 {
-  font-size: 1.6rem;
-  color: #ffffff;
-}
