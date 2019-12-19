@@ -5,567 +5,556 @@
 /*NOTE: Why do the imported fonts not work*/
 @import url("https://use.typekit.net/zhs6aor.css");
 
-.wrapper, header h1{	
-    max-width: 80%;	    
-    margin: 0 auto;
-
+.wrapper,
+header h1 {
+  max-width: 1344px;
+  margin: 0 auto;
 }
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 
-body{
-    font: 1.6rem/1.25 Program OT book, Arial, sans-serif;
-    color: #666666;
-    
+body {
+  font: 1.6rem/1.25 Program OT book, Arial, sans-serif;
+  color: #666666;
 }
-h2{
-    font-size: 3.6rem;
-    color: #111111;
-    font-weight: bold;
+h2 {
+  font-size: 3.6rem;
+  color: #111111;
+  font-weight: bold;
 }
 /*header section*/
-header{
-    background: no-repeat url("../images/banner.jpg");
-    background-size: cover;
-    
-    
+header {
+  background: no-repeat url("../images/banner.jpg");
+  background-size: cover;
 }
 
-nav{
-    background-color: #111111;
-    opacity: 85%;
-    text-align: center;
-    font-size: 2rem;
+nav {
+  background-color: #111111;
+  opacity: 85%;
+  text-align: center;
+  font-size: 2rem;
 }
 
+nav li {
+  display: inline-block;
 
-
-nav li{
-    display: inline-block;
-    
-    color: #999999;
-    opacity: 85%;
+  color: #999999;
+  opacity: 85%;
 }
 
+nav li:hover {
+  color: #dddddd;
+  background-color: #111111;
 
-nav li:hover{
-   
-   color: #dddddd;
-   background-color: #111111;
-   
-   opacity: 100%;
+  opacity: 100%;
 }
 
-nav a{
-    display: inline-block;
-    color: #999999;
-    padding: 1.5rem;
+nav a {
+  display: inline-block;
+  color: #999999;
+  padding: 1.5rem;
 }
 
-nav a:hover{
-    color: #dddddd;
+nav a:hover {
+  color: #dddddd;
 }
 
-h1{
-    padding: 10rem 0;
+h1 {
+  padding: 10rem 0;
 }
 
-h2{
-    font-size: 3.6rem;
-    color: #ffffff;
-}
-
-h3{
-    font-size: 2rem;
-    color: #dddddd;
+h3 {
+  font-size: 2rem;
+  color: #dddddd;
 }
 /*section section*/
-section{
-    margin: 0 auto 0 auto;
+section {
+  margin: 0 auto 0 auto;
 }
 
 #categories {
-    text-align: left;
-    background-color: #111111;
-    /*NOTE TO SELF: Ask why this is needed to text align center*/
-    padding: 3rem;
-    color: #ffffff;
-    
+  text-align: left;
+  background-color: #111111;
+  /*NOTE TO SELF: Ask why this is needed to text align center*/
+  padding: 3rem;
+  color: #ffffff;
 }
-#categories h2{
-    display: none;
+#categories h2 {
+  display: none;
 }
-#categories h3{
-    background: rgba(0,0,0,.5);
-    color: #dddddd;
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 2rem;
-    margin-bottom: 2rem;
+#categories h3 {
+  background: rgba(0, 0, 0, 0.5);
+  color: #dddddd;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
 
-#categories p{
-    background-color: #c0392b;
-    font-weight: bold;
-    width: calc(100%/3);
-    margin: 0 auto;
-    padding: 1rem;
+#categories p {
+  background-color: #c0392b;
+  font-weight: bold;
+  width: calc(100% / 3);
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 #categories li {
-    padding: 5rem 0;
-    text-align: center;
-    width: calc(100%/3 - 2rem/3);
-    float: left;
-    background-size: cover; 
+  padding: 5rem 0;
+  text-align: center;
+  width: calc(100% / 3 - 2rem / 3);
+  float: left;
+  background-size: cover;
 }
 
-#categories li:not(:nth-of-type(3)){
-    margin-right: 1rem;
+#categories li:not(:nth-of-type(3)) {
+  margin-right: 1rem;
 }
-#bikesLi{
-    background: no-repeat url("../images/bikes.jpg");
-}
-
-#accLi{
-    background: no-repeat url("../images/speedometer.jpg");
+#bikesLi {
+  background: no-repeat url("../images/bikes.jpg");
 }
 
-#apparelLi{
-    background: no-repeat url("../images/backpack.jpg");
+#accLi {
+  background: no-repeat url("../images/speedometer.jpg");
+}
+
+#apparelLi {
+  background: no-repeat url("../images/backpack.jpg");
 }
 /*featured products home page*/
-#featured{
-color: #666666;
-margin: 3rem auto;
-
+#featured {
+  color: #666666;
+  margin: 3rem auto;
 }
- #featured h2{
-    color: #666666;
- }
-#featured h2 span{
-    font-weight: bold;
-    color: #111111;
-    display: block; 
+#featured h2 {
+  color: #666666;
 }
-#featured h3{
-    font-weight: bold;
-    color: #444444;
+#featured h2 span {
+  font-weight: bold;
+  color: #111111;
+  display: block;
+}
+#featured h3 {
+  font-weight: bold;
+  color: #444444;
 }
 #featured li {
-    filter: grayscale(100%);
-border: 2px transparent;
-text-align: left;
-position: relative;
-padding: 1rem;
-   display: block;
-   width: calc(25% - 3rem/4);
-   float: left;
-   
+  filter: grayscale(100%);
+  border: 2px solid transparent;
+  text-align: left;
+  position: relative;
+  padding: 1rem;
+  display: block;
+  width: calc(25% - 3rem / 4);
+  float: left;
 }
 
-#featured li:hover{
-    border: 2px solid #888888;
-    filter: grayscale(0%);
-}
-#featured li button{
-display: none;
-background-color: rgba(0, 0, 0, .7);
+#featured li:hover {
+  border: 2px solid #888888;
+  filter: grayscale(0%);
 }
 
-#featured li:hover button{
-position: absolute;
+#featured li button {
+  display: none;
+  position: absolute;
+  margin-left: 1rem;
+  width: calc(100% - 2rem);
+  top: 35.5%;
+  left: 0%;
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
-
-display: block;
-
+#featured li:hover button {
+  display: block;
 }
 
 /*ask why changing from 2rem to 2rem makes evrything fit*/
 #featured li:not(:nth-of-type(4n)) {
-	margin-right: 1rem;
+  margin-right: 1rem;
 }
 
-#featured li:nth-of-type(4n+1){
-    clear: left;
+#featured li:nth-of-type(4n + 1) {
+  clear: left;
 }
 /*NOTE: Ask why items dont center event with text align center.*/
 
-
- #featured img{
-     width: 100%
- }
-
- /*Rating system*/
- 
- meter{
-    -webkit-appearance: none;
-    display: block;
-    width: 100%;
-    
- }
-.mainPrice{
-    font-size: 20px;
-    color: #444444;
-    font-weight: bold;
-}
- /*membership benefits*/
-
- #benefits{
-     padding: 2rem;
-    text-align: center;
-     background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../images/gears.jpg");
-     background-size: cover;
-     font-size: 1.6rem/1.25;
-     color: #888888
- }
-
- #benefits h3{
-    font-weight: bold;
-    font-size: 2rem;
-    
-    color: #dddddd;
+#featured img {
+  width: 100%;
 }
 
- #benefits li{
-    padding: 2rem;
-    display:block;
-    width: calc(100%/3 - 4rem/3);
-    float: left;
-   
- }
+/*Rating system*/
 
- #benefits li:not(:nth-of-type(3)){
-     margin-right: 2rem;
- }
+meter {
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+}
+.mainPrice {
+  font-size: 20px;
+  color: #444444;
+  font-weight: bold;
+}
+/*membership benefits*/
 
- #benefits img{
-     display: inline-block;
-     padding:3rem;
-     border: 3px solid #dddddd;
-     filter: grayscale(1);
-     
- }
-
- /*Start 2nd page css*/
- #shopTop{
-    background-color: #111111;
- }
- #shopTop h3{
-     /*Blue is a placeholder color*/
-    background-color: blue;
-    padding: 4rem;
-    color: #dddddd;
-    font-weight: bold;
- }
- #shopTop span{
-     color: #888888;
-     font-weight: normal;
-     display: block;
- }
- #shopTop li{
-    
-    
-    text-align: center;
-    position: relative;
-    padding:2rem;
-    width: calc(25% - 6rem/4);
-    float: left;
- }
- #shopTop li:not(:nth-of-type(4)){
-     margin-right: 2rem;
- }
- #featuredProducts{
-     background-color: #dddddd;
-     padding: 5rem;
- }
- #featuredProducts li {
-    background-color: #ffffff;
-    border: 2px rgba(0, 0, 0, 0);
-    text-align: left;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    width: calc(25% - 3rem/4);
-    float: left;
-   
+#benefits {
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/gears.jpg");
+  background-size: cover;
+  font-size: 1.6rem/1.25;
+  color: #888888;
 }
 
-#featuredProducts li:hover{
-    border: 2px solid #888888;
-    
+#benefits h3 {
+  font-weight: bold;
+  font-size: 2rem;
+
+  color: #dddddd;
+}
+
+#benefits li {
+  padding: 2rem;
+  display: block;
+  width: calc(100% / 3 - 4rem / 3);
+  float: left;
+}
+
+#benefits li:not(:nth-of-type(3)) {
+  margin-right: 2rem;
+}
+
+#benefits img {
+  display: inline-block;
+  padding: 3rem;
+  border: 3px solid #dddddd;
+  filter: grayscale(1);
+}
+
+/*Start 2nd page css*/
+#shopTop {
+  background-color: #111111;
+}
+#shopTop h3 {
+  /*Blue is a placeholder color*/
+  background-color: blue;
+  padding: 4rem;
+  color: #dddddd;
+  font-weight: bold;
+}
+#shopTop span {
+  color: #888888;
+  font-weight: normal;
+  display: block;
+}
+#shopTop li {
+  text-align: center;
+  position: relative;
+  padding: 2rem;
+  width: calc(25% - 6rem / 4);
+  float: left;
+}
+#shopTop li:not(:nth-of-type(4)) {
+  margin-right: 2rem;
+}
+#featuredProducts {
+  background-color: #dddddd;
+  padding: 5rem;
+}
+#featuredProducts li {
+  background-color: #ffffff;
+  border: 2px rgba(0, 0, 0, 0);
+  text-align: left;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  width: calc(25% - 3rem / 4);
+  float: left;
+}
+
+#featuredProducts li:hover {
+  border: 2px solid #888888;
 }
 
 #featuredProducts li:not(:nth-of-type(4n)) {
-	margin-right: 1rem;
+  margin-right: 1rem;
 }
 
-#featuredProducts li:nth-of-type(4n+1){
-    clear: left;
+#featuredProducts li:nth-of-type(4n + 1) {
+  clear: left;
 }
 
-#featuredProducts li li{
-    font-size: 0;
-    background-color: #c0392b;
-    
-    
-    padding: 2rem;
-    margin-top: 1rem;
-    width: calc(100%/3 - 2rem/3);
-    float: left;
+#featuredProducts li li {
+  font-size: 0;
+  background-color: #c0392b;
+
+  padding: 2rem;
+  margin-top: 1rem;
+  width: calc(100% / 3 - 2rem / 3);
+  float: left;
 }
 
-#featuredProducts li li:first-of-type{
-    font-size: 0;
-    background-color: #111111;
-    
-    
-    padding: 2rem;
-    margin-top: 1rem;
-    width: calc(100%/3 - .5rem/3);
-    float: left;
+#featuredProducts li li:first-of-type {
+  font-size: 0;
+  background-color: #111111;
+
+  padding: 2rem;
+  margin-top: 1rem;
+  width: calc(100% / 3 - 0.5rem / 3);
+  float: left;
 }
 /*NOTE: Ask why items dont center event with text align center.*/
-#featuredProducts li li:not(:nth-of-type(3n)){
-    margin-right: .25rem;
+#featuredProducts li li:not(:nth-of-type(3n)) {
+  margin-right: 0.25rem;
 }
 
-
- #featuredProducts img{
-     width: 100%
- }
-
- body section::after{
-	content: " ";
-	display: block;
-	clear: both;
+#featuredProducts img {
+  width: 100%;
 }
-body section::after{
-	content: " ";
-	display: block;
-	clear: both;
+
+body section::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body section::after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
 /*Contact Page section*/
-#contactBox{
-color: #666666;
-padding: 5rem;
-
+#contactBox {
+  color: #666666;
+  padding: 5rem;
 }
 
-#contactBox h2{
-    font-size: 3.6rem;
-    color:#111111;
-    font-weight: bold;
+#contactBox h2 {
+  font-size: 3.6rem;
+  color: #111111;
+  font-weight: bold;
 }
- #contactBox h3{
-    font-size: 2rem;
-    color: #444444;
-    font-weight: bold;
-}
-
-
-#contactBox article{
- width: calc(50% - 2rem);
- float: left;
+#contactBox h3 {
+  font-size: 2rem;
+  color: #444444;
+  font-weight: bold;
 }
 
-#contactBox article:first-of-type{
-    margin-right: 4rem;
-}
-#contactInfo li{
-    background-color: #999999;
-    text-align: center;
-    width: calc(100%/3 - 4rem/3);
-    float: left;
-    
-}
-#contactInfo li:not(:nth-of-type(3)){
-    margin-right: 2rem;
-}
-#contactInfo p, li{
-margin: 2rem auto;
-}
-#contactForm{
-    border: 2px solid #666666;
-    padding: 3rem;
+#contactBox article {
+  width: calc(50% - 2rem);
+  float: left;
 }
 
-#contactForm label{
-    display: none;
+#contactBox article:first-of-type {
+  margin-right: 4rem;
 }
-#contactForm input, textarea{
-    border: 2px solid #666666;
-    display: block;
-    padding: 1rem;
-    margin: 1rem;
-    width: 100%;
-    
+#contactInfo li {
+  background-color: #999999;
+  text-align: center;
+  width: calc(100% / 3 - 4rem / 3);
+  float: left;
+}
+#contactInfo li:not(:nth-of-type(3)) {
+  margin-right: 2rem;
+}
+#contactInfo p,
+li {
+  margin: 2rem auto;
+}
+#contactForm {
+  border: 2px solid #666666;
+  padding: 3rem;
 }
 
-#contactForm button{
-    background-color: #c0392b;
-    margin: 1rem;
-    padding: 1rem;
-    display: block;
+#contactForm label {
+  display: none;
+}
+#contactForm input,
+textarea {
+  border: 2px solid #666666;
+  display: block;
+  padding: 1rem;
+  margin: 1rem;
+  width: 100%;
+}
+
+#contactForm button {
+  background-color: #c0392b;
+  margin: 1rem;
+  padding: 1rem;
+  display: block;
 }
 /*events page section*/
-#mainEvent{
-padding: 5rem 0;
+#mainEvent {
+  padding: 5rem 0;
 }
-#mainEvent section{
-    width: calc(50% - 5rem);
-    float: left;
+#mainEvent section {
+  width: calc(50% - 5rem);
+  float: left;
 }
-#mainEvent section:first-of-type{
-    margin-right: 10rem;
+#mainEvent section:first-of-type {
+  margin-right: 10rem;
 }
 
 #mainEvent h2 {
-    font-size: 3.6rem;
-    color: #111111;
-    font-weight: bold;
+  font-size: 3.6rem;
+  color: #111111;
+  font-weight: bold;
 }
 
-#mainDescription h2, p{
-    margin-bottom: 2rem;
+#mainDescription h2,
+p {
+  margin-bottom: 2rem;
 }
 
-#mainDescription button{
-    display: block;
-    padding: 2rem;
-    background-color: #c0392b;
-    color: #ffffff;
-    font-weight: bold;
-
+#mainDescription button {
+  display: block;
+  padding: 2rem;
+  background-color: #c0392b;
+  color: #ffffff;
+  font-weight: bold;
 }
-#eventMeta{
-    
-    background-color: #e6e6e6;
-    padding: 3rem;
+#eventMeta {
+  background-color: #e6e6e6;
+  padding: 3rem;
 }
 
-#eventMeta span{
-    display: block;
-    color: #444444;
-    font-size: 2rem;
-    font-weight: bold;
+#eventMeta span {
+  display: block;
+  color: #444444;
+  font-size: 2rem;
+  font-weight: bold;
 }
 #eventMeta div {
-    width: calc(50% - 1rem);
-    padding: 3rem;
-    
-    float: left;
+  width: calc(50% - 1rem);
+  padding: 3rem;
+
+  float: left;
 }
 
-#eventMeta div:not(:nth-of-type(2n)){
-    margin-right: 2rem;
+#eventMeta div:not(:nth-of-type(2n)) {
+  margin-right: 2rem;
 }
 
-#eventMeta div:nth-of-type(2n+1){
-    clear: left;
+#eventMeta div:nth-of-type(2n + 1) {
+  clear: left;
 }
 
-#eventSchedule{
-    padding: 3rem 0;
-    background-color: #e6e6e6;
+#eventSchedule {
+  padding: 3rem 0;
+
+  background-color: #e6e6e6;
 }
-#eventSchedule h2{
-    font-size: 3.6rem;
-    color: #111111;
-    font-weight: bold;
-    display: inline-block;
-    
+#eventSchedule h2 {
+  font-size: 3.6rem;
+  color: #111111;
+  font-weight: bold;
+  display: inline-block;
 }
 
-#eventSchedule h3{
-    font-size: 2rem;
-    color: #444444;
-    font-weight: bold;
+#eventSchedule h3 {
+  font-size: 2rem;
+  color: #444444;
+  font-weight: bold;
 }
 
-#eventSchedule button{
-    display: inline-block;
-    padding: 2rem;
-    background-color: #c0392b;
-    color: #ffffff;
-    font-weight: bold;
+#eventSchedule button {
+  display: block;
+  padding: 2rem;
+  float: right;
+
+  background-color: #c0392b;
+  color: #ffffff;
+  font-weight: bold;
 }
-#widget{
-    margin: 5rem;
-    background-color: #ffffff;
+#widget {
+  margin-top: 3rem;
+  background-color: #ffffff;
 }
-#widget nav{
-    background-color: #c0392b;
-    width: calc(100%/3 - 1.5rem);
-    padding:0;
+#widget nav {
+  background-color: #c0392b;
+  opacity: 100%;
+  width: calc(100% / 3 - 1.5rem);
+  padding: 0;
+  height: 100%;
+  margin-right: 1.5rem;
+  float: left;
+}
+
+#widget nav li:hover {
+    background-color: white;
+    /* width: calc(100% / 3 - 1.5rem);
+    padding: 0;
     height: 100%;
     margin-right: 1.5rem;
-    float: left;
+    float: left; */
+    /* width: 90%; */
+  }
 
+#widget ul {
+  width: calc(200% / 3 - 1.5rem);
+  float: left;
 }
 
-#widget ul{
-    width: calc(200%/3 - 1.5rem);
-    float: left;
+#dec24 li {
+  margin: 2rem;
+  background-color: #e6e6e6;
+  padding: 1rem;
 }
 
-#dec24 li{
-    margin: 2rem;
-    background-color: #e6e6e6;
-    padding: 1rem;
+#widget dt,
+dd {
+  display: inline-block;
+  padding: 1rem;
 }
-#widget dt, dd{
-    display: inline-block;
-    padding: 1rem;
+#widget nav li {
+  display: block;
+  padding: 1rem;
+  margin: none;
 }
-#widget nav li{
-    display: block;
-    padding: 1rem;
-    margin: none;
-}
-body > main::after{
-	content: " ";
-	display: block;
-    clear: both;
+body > main::after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 /*footer section*/
-footer{
-    padding: 5rem;
-    background-color: #111111;
-    font-size: 1.6rem/1.25;
-    color: #888888;
+footer {
+  padding: 5rem;
+  background-color: #111111;
+  font-size: 1.6rem/1.25;
+  color: #888888;
 }
 
-footer section{
-    background-color: #111111;
-    display:block;
-    width: calc(100%/4 - 6rem/4);
-    float: left;
+footer section {
+  background-color: #111111;
+  display: block;
+  width: calc(100% / 4 - 6rem / 4);
+  float: left;
 }
 
-footer ul:not(:nth-of-type(4)){
-    margin-right: 1rem;
+footer ul:not(:nth-of-type(4)) {
+  margin-right: 1rem;
 }
 /*NOTE: Ask why clearfix doesn't fix footer*/
-body > footer::after{
-	content: "";
-	display: block;
-    clear: both;
+body > footer::after {
+  content: "";
+  display: block;
+  clear: both;
 }
-#socials{
-    text-align: right;
+#socials {
+  text-align: right;
 }
-#socials li, h4{
-    display: inline-block;
-    padding: .1rem;
-    
-}
-
-
-footer h4{
-    font-size: 1.6rem;
-    color: #ffffff;
+#socials li,
+h4 {
+  display: inline-block;
+  padding: 0.1rem;
 }
 
-
+footer h4 {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
