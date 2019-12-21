@@ -32,11 +32,11 @@ h3 {
   font-weight: bold;
 }
 
-h4{
-    font-size:1.6rem;
-    color: #FFFFFF;
-    text-transform:uppercase;
-
+h4 {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*header section*/
@@ -50,52 +50,50 @@ h1 {
   width: 100%;
   text-align: left;
 }
-h1 img{
-    display: inline-block;
-    width: 25%;
+h1 img {
+  display: inline-block;
+  width: 25%;
 }
 nav {
-  background-color: #111111;
-  opacity: 85%;
+  background-color: rgba(17, 17, 17, 85%);
+
   text-transform: uppercase;
   text-align: center;
   font-size: 2rem;
+  font-weight: bold;
+  color: #999999;
 }
 
 nav li {
   display: inline-block;
 
-  color: #999999;
-  opacity: 85%;
-}
-
-nav li:hover {
-  color: #dddddd;
-  background-color: #111111;
-  opacity: 100%;
 }
 
 nav a {
-   width: 100%; 
+  width: 100%;
   display: inline-block;
   color: #999999;
   padding: 1.5rem;
 }
+[aria-current="true"], nav a:hover{
+    color: #dddddd;
+    background-color: #111111;
+    opacity: 100%;
+  }
 
-nav a:hover {
-  color: #dddddd;
-}
+
+
 
 button {
-    display: inline-block;
-    padding: 2rem;
-    background-color: #c0392b;
-    color: #ffffff;
-    font-weight: bold;
-  }
-img{
-    display: block;
-    width: 100%;
+  display: inline-block;
+  padding: 2rem;
+  background-color: #c0392b;
+  color: #ffffff;
+  font-weight: bold;
+}
+img {
+  display: block;
+  width: 100%;
 }
 
 #categories {
@@ -181,7 +179,6 @@ img{
   filter: grayscale(0%);
 }
 
-
 #featured li button {
   display: none;
   position: absolute;
@@ -195,7 +192,6 @@ img{
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.8);
 }
-
 #featured li:hover button {
   display: block;
 }
@@ -209,8 +205,6 @@ img{
   clear: left;
 }
 /*NOTE: Ask why items dont center event with text align center.*/
-
-
 
 /*Rating system*/
 
@@ -235,13 +229,10 @@ meter {
   font-size: 1.6rem/1.25;
   color: #888888;
 }
-#benefits h2{
-    color: #ffffff;
-    
+#benefits h2 {
+  color: #ffffff;
 }
 #benefits h3 {
-  
-  
   margin-bottom: 2rem;
   color: #dddddd;
 }
@@ -260,15 +251,16 @@ meter {
 #benefits img {
   display: inline-block;
   padding: 3rem;
+  width: 50%;
   border: 3px solid #dddddd;
   filter: grayscale(1);
 }
-#benefits input{
-    display: inline-block;
-    padding: .5rem;
+#benefits input {
+  display: inline-block;
+  padding: 0.5rem;
 }
-#benefits button{
-    padding: .5rem;
+#benefits button {
+  padding: 0.5rem;
 }
 
 /*Start 2nd page css*/
@@ -303,7 +295,7 @@ meter {
 }
 #featuredProducts li {
   background-color: #ffffff;
-  border: 2px rgba(0, 0, 0, 0);
+  border: 2px solid transparent;
   text-align: left;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -322,12 +314,13 @@ meter {
 #featuredProducts li:nth-of-type(4n + 1) {
   clear: left;
 }
-
+#featuredProducts li h3{
+    color: #444444;
+}
 #featuredProducts li li {
   font-size: 0;
   background-color: #c0392b;
-
-  padding: 2rem;
+  padding: 0;
   margin-top: 1rem;
   width: calc(100% / 3 - 2rem / 3);
   float: left;
@@ -337,10 +330,17 @@ meter {
   font-size: 0;
   background-color: #111111;
 
-  padding: 2rem;
   margin-top: 1rem;
   width: calc(100% / 3 - 0.5rem / 3);
   float: left;
+}
+
+#featuredProducts li li button {
+  width: 100%;
+}
+
+#featuredProducts li li:first-of-type button {
+  background-color: #111111;
 }
 /*NOTE: Ask why items dont center event with text align center.*/
 #featuredProducts li li:not(:nth-of-type(3n)) {
@@ -356,7 +356,6 @@ body section::after {
   display: block;
   clear: both;
 }
-
 
 /*Contact Page section*/
 #contactBox {
@@ -413,7 +412,6 @@ body section::after {
   width: 100%;
 }
 
-
 /*events page section*/
 #mainEvent {
   padding: 5rem 0;
@@ -436,7 +434,6 @@ body section::after {
 p {
   margin-bottom: 2rem;
 }
-
 
 #eventMeta {
   background-color: #e6e6e6;
@@ -486,24 +483,21 @@ p {
   float: right;
 }
 
-
 /*REFER BACK TO SPACING AND POSITIONS*/
 #widget {
-position: relative;
+  position: relative;
   margin-top: 3rem;
   background-color: #ffffff;
-  padding: 2rem 2rem 2rem calc(100%/3);
+  padding: 2rem 2rem 2rem calc(100% / 3);
 }
 #widget nav {
   position: absolute;
   top: 0;
-  left: 0;  
+  left: 0;
   background-color: #c0392b;
   opacity: 100%;
   width: calc(100% / 3);
   height: 100%;
-  
-  
 }
 /*************************************************/
 #widget nav li:hover {
@@ -515,9 +509,6 @@ position: relative;
     float: left; */
   /* width: 90%; */
 }
-
-
-
 
 #dec24 li {
   margin: 2rem;
@@ -560,7 +551,7 @@ footer ul:not(:nth-of-type(4)) {
 }
 /*NOTE: Ask why clearfix doesn't fix footer*/
 body > footer::after {
-  content: "";
+  content: " ";
   display: block;
   clear: both;
 }
@@ -572,4 +563,3 @@ h4 {
   display: inline-block;
   padding: 0.1rem;
 }
-
