@@ -220,7 +220,11 @@ img {
 meter {
   -webkit-appearance: none;
   display: block;
-  width: 100%;
+  height: 2rem;
+  width: 10rem;
+  background: no-repeat url("../images/ratings.png");
+  background-size: cover;
+  background-position: 75% 80%;
 }
 .mainPrice {
   font-size: 20px;
