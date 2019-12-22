@@ -279,6 +279,7 @@ meter {
 /*Start 2nd page css*/
 #shopTop {
   background-color: #111111;
+  position: relative;
 }
 #shopTop h3 {
   /*Blue is a placeholder color*/
@@ -302,9 +303,23 @@ meter {
 #shopTop li:not(:nth-of-type(4)) {
   margin-right: 2rem;
 }
+#shopTop button{
+    position: absolute;
+    top: calc(50% - 4rem);
+}
+
+#shopTop button:first-of-type{
+    left: 0;
+}
+
+#shopTop button:nth-of-type(2){
+    right: 0;
+}
 #featuredProducts {
   background-color: #dddddd;
   padding: 5rem;
+  right: 100%;
+  
 }
 #featuredProducts li {
   background-color: #ffffff;
@@ -334,26 +349,28 @@ meter {
   font-size: 0;
   background-color: #c0392b;
   padding: 0;
-  margin-top: 1rem;
+  
   width: calc(100% / 3 - 2rem / 3);
   float: left;
 }
 
 #featuredProducts li li:first-of-type {
-  font-size: 0;
   background-color: #111111;
-
-  margin-top: 1rem;
-  width: calc(100% / 3 - 0.5rem / 3);
-  float: left;
+  
 }
+
 
 #featuredProducts li li button {
   width: 100%;
+  
 }
 
 #featuredProducts li li:first-of-type button {
   background-color: #111111;
+  background: no-repeat url("../images/cart.png");
+  background-size: 3rem 3rem;
+  background-position: 50% 50%;
+  
 }
 /*NOTE: Ask why items dont center event with text align center.*/
 #featuredProducts li li:not(:nth-of-type(3n)) {
