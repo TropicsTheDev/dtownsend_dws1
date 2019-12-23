@@ -57,7 +57,7 @@ h1 img {
 }
 nav {
   background-color: rgba(17, 17, 17, 85%);
-
+    border-top: 5px solid #c0392b;
   text-transform: uppercase;
   text-align: center;
   font-size: 2rem;
@@ -278,16 +278,38 @@ meter {
 
 /*Start 2nd page css*/
 #shopTop {
+    padding: 2rem;
   background-color: #111111;
   position: relative;
 }
-#shopTop h3 {
+
+#shopTop li{
+    padding: 0;
+    margin: 0;
+}
+#shopTop li h3 {
   /*Blue is a placeholder color*/
-  background-color: blue;
-  padding: 4rem;
+  
+  width: 100%;
+  padding: 0;
+  margin: 0;
   color: #dddddd;
   font-weight: bold;
 }
+
+#shopTop li h3::before{
+    content: " ";
+    display: block;
+    background-image: url("../images/seat.jpg");
+    background-size: cover;
+    width: 32rem;
+    height: 20rem;
+   
+}
+
+
+
+
 #shopTop span {
   color: #888888;
   font-weight: normal;
@@ -296,7 +318,6 @@ meter {
 #shopTop li {
   text-align: center;
   position: relative;
-  padding: 2rem;
   width: calc(25% - 6rem / 4);
   float: left;
 }
@@ -309,11 +330,11 @@ meter {
 }
 
 #shopTop button:first-of-type{
-    left: 0;
+    left: 5%;
 }
 
 #shopTop button:nth-of-type(2){
-    right: 0;
+    right: 5%;
 }
 #featuredProducts {
   background-color: #dddddd;
@@ -358,7 +379,11 @@ meter {
   background-color: #111111;
   
 }
-
+#featuredProducts li span{
+    font-size: 2rem;
+    color: #444444;
+    font-weight: bold;
+}
 
 #featuredProducts li li button {
   width: 100%;
@@ -413,7 +438,7 @@ body section::after {
   margin-right: 4rem;
 }
 #contactInfo li {
-  background-color: #999999;
+  
   text-align: center;
   width: calc(100% / 3 - 4rem / 3);
   float: left;
@@ -421,9 +446,22 @@ body section::after {
 #contactInfo li:not(:nth-of-type(3)) {
   margin-right: 2rem;
 }
+
+
 #contactInfo p,
 #contactInfo li {
   margin: 2rem auto;
+}
+
+#contactInfo li::before{
+    content: " ";
+    display: block;
+    background-image: url("../images/gears.jpg");
+    background-size: cover;
+    border-radius: 100%;
+    width: 24.25rem;
+    height: 15rem;
+   
 }
 #contactForm {
   border: 5px solid rgba(102,102,102, 50%);
