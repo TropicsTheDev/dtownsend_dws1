@@ -239,7 +239,7 @@ meter {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/gears.jpg");
   background-size: cover;
-  font-size: 1.6rem/1.25;
+  
   color: #888888;
 }
 #benefits h2 {
@@ -553,13 +553,13 @@ p {
 }
 
 /*REFER BACK TO SPACING AND POSITIONS*/
-#widget {
+#dateSelect {
   position: relative;
   margin-top: 3rem;
   background-color: #ffffff;
   padding: 2rem 2rem 2rem calc(100% / 3);
 }
-#widget nav {
+#dateSelect nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -570,10 +570,10 @@ p {
   height: 100%;
 }
 /*************************************************/
-#widget nav a{
+#dateSelect nav a{
     color:#ffffff;
 }
-#widget nav a:hover {
+#dateSelect nav a:hover {
   background-color: #ffffff;
   color: #444444;
   
@@ -592,12 +592,12 @@ p {
   padding: 1rem;
 }
 
-#widget dt,
+#dateSelect dt,
 dd {
   display: inline-block;
   padding: 1rem;
 }
-#widget nav li{
+#dateSelect nav li{
   display: block;
   padding: 0;
   color: #111111;
